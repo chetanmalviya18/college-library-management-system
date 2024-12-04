@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["https://college-library-management-system-client.onrender.com","http://localhost:5173"],
     methods: ["POST", "PUT", "Get", "PATCH", "DELETE"],
     credentials: true,
   })
