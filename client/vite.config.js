@@ -1,13 +1,14 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  // server: {
-  //   proxy: {
-  //     "/api": "http://localhost:2002",
-  //   },
-  // },
   plugins: [react()],
-  base: "/",
+  // server: {
+  //   port: 3000,
+  // },
+  build: {
+    rollupOptions: {
+      input: '/index.html',
+    },
+  },
 });
