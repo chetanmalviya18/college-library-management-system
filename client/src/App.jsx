@@ -21,7 +21,7 @@ const App = () => {
     <>
       <div>
         <Routes>
-          <Route path="/librarian7239" element={<LibrarianLogin />} />
+          <Route path="/librarian--7239" element={<LibrarianLogin />} />
           <Route
             path="/librarian--7239/librarian-register"
             element={<Register />}
