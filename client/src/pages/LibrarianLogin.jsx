@@ -109,7 +109,7 @@ const Login = () => {
         <div className="lg:w-1/2 w-full flex justify-center items-center p-4">
           <div className="text-center">
             <img
-              src="./public/clg logo.jpeg"
+              src="./public/clglogo.jpeg"
               alt="Logo"
               className="lg:w-80 lg:h-80 w-56 h-56"
             />
