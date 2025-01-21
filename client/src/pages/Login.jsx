@@ -95,6 +95,7 @@ const Login = () => {
               >
                 {loading ? <Loader /> : "Login"}
               </Button>
+<a href="/librarian--7239">Login as Librarian</a>
             </div>
           </div>
         </div>
